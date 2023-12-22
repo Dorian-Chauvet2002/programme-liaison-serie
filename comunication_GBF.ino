@@ -1,3 +1,24 @@
+/* This file has been prepared for Doxygen automatic documentation generation.*/
+
+/*! \file *********************************************************************
+ *
+ * \brief
+ *      communication GBF
+ *
+ * \par Note: A partir de la Datasheet ATmega328P
+ *
+ * \par Documentation: https://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7810-Automotive-Microcontrollers-ATmega328P_Datasheet.pdf
+ *
+ * \author
+ *      Github: https://github.com/Dorian-Chauvet2002
+ *      Email: dorian.chauvet1@etudiant.univ-reims.fr
+ *
+ * $Name: Liaison série $
+ * $RCSfile: main.c,v $
+ * $Date: 2023/11/21 10:43:51 $  \n
+ ******************************************************************************/
+
+
 #define FOSC 16000000  // Fréquence du quartz (Clock Speed)
 #define BAUD 9600
 #define MYUBRR FOSC / 16 / BAUD - 1
